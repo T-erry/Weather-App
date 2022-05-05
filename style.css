@@ -1,0 +1,48 @@
+.container {
+  background-image: url(/images/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  width: 100vw;
+  height: 100vw;
+  margin: 50px;
+  color: blueviolet;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  padding: 10px;
+}
+.current {
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: 800px;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+}
+.today-forecast {
+  padding: 20px;
+}
+.links a {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.links p {
+  font-size: 30px;
+}
+.links #celsius#degress {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+.week-forecast {
+  margin-left: 10px;
+}
+.footer {
+  position: fixed;
+  bottom: -40px;
+  margin: 40px;
+  padding: 5px;
+  font-size: 20px;
+}
